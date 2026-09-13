@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Logo from "../assets/logo-text.png";
 
-class Nav extends Component {
-    render() {
+const Nav = () =>  {
+
         return (
             <nav>
                 <div className='container mx-auto flex justify-between items-center'>
@@ -21,7 +21,7 @@ class Nav extends Component {
                 </div>
             </nav>
         );
-    }
+    
 }
 
 export default Nav;
