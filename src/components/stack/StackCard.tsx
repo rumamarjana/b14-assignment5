@@ -11,7 +11,7 @@ export default function Card({ tech, isSelected, onAddToStack }: CardProps) {
   return (
     <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
       <div>
-        {/* Header Row */}
+        
         <div className="flex justify-between items-start mb-4">
           <img src={tech.icon} alt={tech.name} className="w-10 h-10 object-contain" />
           {tech.badge && (
@@ -21,7 +21,7 @@ export default function Card({ tech, isSelected, onAddToStack }: CardProps) {
           )}
         </div>
 
-        {/* Content */}
+    
         <h3 className="text-xl font-bold text-slate-800">{tech.name}</h3>
         <p className="text-slate-500 text-sm mt-2 line-clamp-3 leading-relaxed">
           {tech.description}
